@@ -1,0 +1,20 @@
+{
+  "name": "pokemon-simulator",
+  "version": "1.0.0",
+  "description": "Pokemon Simulator Production",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "pokemon",
+    "simulator"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

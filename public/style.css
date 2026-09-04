@@ -1,0 +1,27 @@
+body { font-family: 'Segoe UI', sans-serif; background: #2c3e50; color: #333; display: flex; justify-content: center; padding: 20px; }
+.game-container { width: 450px; background: #ecf0f1; border-radius: 10px; border: 4px solid #34495e; overflow: hidden; text-align: center; }
+.screen { padding: 20px; }
+.arena { background: linear-gradient(to bottom, #74ebd5, #9face6); padding: 0; position: relative; }
+
+.grid { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+.grid-col { display: flex; flex-direction: column; gap: 10px; }
+.btn { padding: 10px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; color: white; }
+.btn.wild { background: #27ae60; width: 100%; }
+.btn.gym { background: #2980b9; width: 100%; }
+.btn.locked { background: #7f8c8d; cursor: not-allowed; width: 100%; }
+.btn.confirm { background: #e67e22; width: 100%; margin-top: 10px; }
+.btn.atk { background: #e74c3c; width: 45%; }
+.btn.tactical { background: #34495e; width: 30%; font-size: 11px; }
+
+hr { border-top: 2px dashed #bdc3c7; margin: 15px 0; }
+.pokemon-container { display: flex; align-items: center; justify-content: space-between; padding: 20px; }
+.player { margin-top: -30px; }
+img { width: 100px; height: 100px; object-fit: contain; }
+.stats-box { background: white; border: 3px solid #2c3e50; border-radius: 10px; padding: 10px; width: 140px; box-shadow: 2px 2px 0px rgba(0,0,0,0.2); }
+.stats-box h3 { margin: 0; font-size: 14px; text-transform: uppercase; }
+.small-txt { font-size: 10px; margin: 2px 0; }
+.health-bar-bg { background: #ccc; height: 10px; border-radius: 5px; width: 100%; }
+.health-bar-fill { background: #2ecc71; height: 100%; border-radius: 5px; width: 100%; transition: width 0.3s; }
+.ui-panel { background: #34495e; padding: 15px; }
+#battle-log { height: 100px; background: rgba(0,0,0,0.5); color: white; padding: 10px; border-radius: 5px; overflow-y: auto; text-align: left; font-size: 13px; margin-bottom: 10px; }
+#action-menu { display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; }
