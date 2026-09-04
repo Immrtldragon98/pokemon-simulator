@@ -13,6 +13,6 @@ app.get("/", (req, res) => {
 });
 
 // Start server
-app.listen(PORT, () => {
-    console.log(`Pokemon Simulator running at http://localhost:${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Pokemon Simulator running on port ${PORT}`);
 });
